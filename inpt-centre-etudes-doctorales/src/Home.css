@@ -1,0 +1,22 @@
+.nav-button {
+  background: #003366;
+  color: #fff;
+  padding: 0.75rem 2rem;
+  border-radius: 9999px;
+  font-weight: 600;
+  font-size: 1rem;
+  box-shadow: 0 2px 8px 0 rgba(20,18,122,0.08);
+  border: none;
+  outline: none;
+  margin-top: 2rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  transition: background 0.2s, box-shadow 0.2s;
+}
+
+.nav-button:hover {
+  background: #00234d;
+  box-shadow: 0 4px 16px 0 rgba(20,18,122,0.16);
+}
