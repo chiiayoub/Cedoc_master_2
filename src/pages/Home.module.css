@@ -1,0 +1,48 @@
+/* En-tête */
+.header {
+  display: flex;
+  align-items: center;
+  padding: 1rem 5%;
+  background: white;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08), 0 4px 12px rgba(0,0,0,0.04); /* ombre subtile améliorée */
+  transition: box-shadow 0.3s;
+}
+
+/* Bannière */
+.hero {
+  background: linear-gradient(rgba(0,51,102,0.6), rgba(0,51,102,0.2));
+  background-size: cover;
+  padding: 5rem 10%;
+  color: white;
+  position: relative;
+}
+
+/* Cartes statistiques */
+.stats-card {
+  background: white;
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.3s cubic-bezier(.4,2,.6,1), box-shadow 0.3s;
+}
+.stats-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.13);
+}
+
+/* Bouton principal */
+.primary-btn {
+  background: #003366;
+  color: white;
+  padding: 12px 30px;
+  border-radius: 30px;
+  font-weight: 600;
+  transition: background 0.25s, color 0.25s, box-shadow 0.25s;
+  box-shadow: 0 2px 8px rgba(20,18,122,0.08);
+}
+.primary-btn:hover {
+  background: #00234d;
+  color: #fff;
+  box-shadow: 0 4px 16px rgba(20,18,122,0.13);
+}

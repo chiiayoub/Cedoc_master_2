@@ -1,0 +1,105 @@
+/* src/pages/EspaceProfesseur.css */
+.professor-content {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+@media (min-width: 992px) {
+  .professor-content {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.subject-form-section, 
+.subject-list-section {
+  background: #f9fafb;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.subject-list {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.subject-card {
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 1.25rem;
+  background: white;
+}
+
+.subject-card.pending {
+  border-left: 4px solid #f59e0b;
+}
+
+.subject-card.validated {
+  border-left: 4px solid #10b981;
+}
+
+.subject-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.status-badge {
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.status-badge.pending {
+  background-color: #fffbeb;
+  color: #f59e0b;
+}
+
+.status-badge.validated {
+  background-color: #ecfdf5;
+  color: #10b981;
+}
+
+.subject-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  font-size: 0.875rem;
+  color: #4b5563;
+  margin-bottom: 0.75rem;
+}
+
+.subject-description {
+  color: #374151;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.subject-actions {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.edit-btn, 
+.delete-btn {
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.edit-btn {
+  background-color: #dbeafe;
+  color: #1d4ed8;
+  border: none;
+}
+
+.delete-btn {
+  background-color: #fee2e2;
+  color: #ef4444;
+  border: none;
+}

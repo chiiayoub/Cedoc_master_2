@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --inpt-primary: #0E0464;
+  --inpt-secondary: #14127A;
+  --inpt-accent: #2A2183;
+  --inpt-bg: #f8f9fa;
+  --inpt-text: #22223b;
+}
+
+body {
+  background-color: var(--inpt-bg);
+  color: var(--inpt-text);
+  font-family: 'Inter', sans-serif;
+}
